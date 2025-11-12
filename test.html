@@ -20,8 +20,9 @@
 
         <form action="https://www.google.com" method="get">
         <div class="content">
-        <div class="flex-content">
+            <div class="flex-content">
         <table border="4">
+            <form>
             <tr>   
                 <th>お名前</th>
                 <td>
@@ -62,26 +63,22 @@
             <tr>
                 <th>お問い合わせ種別</th>
                 <td>
-                 <p>
                     <input type="radio" name="type" value="goods">商品について
                     <input type="radio" name="type" value="staff">従業員について
-                 </p>
                 </td>
             </tr>
             <tr>
                 <th>お問い合わせ内容</th>
                 <td>
-                <form>
-                 <input type="text" placeholder="詳細を入力してください" cols="30" raw="5">
-                </form>
+                <input type="text" placeholder="詳細を入力してください" cols="30" raw="5">
                 </td>
             </tr>
         </table>
             <input class="click" type="submit" value="送信">
+    </form>
         </div>
         </div>
         <div class="footer">
         </div>
-        </form>
     </body>
 </html>

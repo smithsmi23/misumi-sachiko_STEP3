@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="#ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>世界一甘いお店</title>
+    <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+        <div class="header">
+        <h1>世界一甘いお店</h1>
+        </div>
+        <aside class="sidebar">
+        <ul>
+            <li><a href="http://www.google.com">トップ</a></li>
+            <li><a href="http://www.google.com">新着情報</a></li>
+            <li><a href="http://www.google.com">おすすめのスイーツ</a></li>
+            <li><a href="http://www.google.com">お問い合わせ</a></li>
+        </ul>
+        </aside>
+
+        <form action="https://www.google.com" method="get">
+        <div class="content">
+        <div class="flex-content">
+        <table border="4">
+            <tr>   
+                <th>お名前</th>
+                <td>
+                <input type="name" name="username" value="">
+                </td>
+            </tr>
+            <tr>
+                <th>お近くのお店</th>
+                <td>
+                 <select>
+                    <option value="1">北海道・東北</option>
+                    <option value="2">関東</option>
+                    <option value="3">中部
+                    <option value="4">関西</option>
+                    <option value="5">中国・四国</option>
+                    <option value="6">九州・沖縄</option>
+                 </select>
+                </td>
+            </tr>
+            <tr>
+                <th>電話</th>
+                <td>
+                    <input type="tel" name="tel" value="">
+                </td>
+            </tr>
+            <tr>
+                <th>電話番号</th>
+                <td>
+                    <input type="tel" name="tel" value="">
+                </td>
+            </tr>
+            <tr>
+                <th>メールアドレス</th>
+                <td>
+                    <input type="mail" name="mailaddress" value="">
+                </td>
+            </tr>
+            <tr>
+                <th>お問い合わせ種別</th>
+                <td>
+                 <p>
+                    <input type="radio" name="type" value="goods">商品について
+                    <input type="radio" name="type" value="staff">従業員について
+                 </p>
+                </td>
+            </tr>
+            <tr>
+                <th>お問い合わせ内容</th>
+                <td>
+                <form>
+                 <input type="text" placeholder="詳細を入力してください" cols="30" raw="5">
+                </form>
+                </td>
+            </tr>
+        </table>
+            <input class="click" type="submit" value="送信">
+        </div>
+        </div>
+        <div class="footer">
+        </div>
+        </form>
+    </body>
+</html>
